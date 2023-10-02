@@ -4,6 +4,11 @@ margin: 0px;
   background-color: #202020;
   scroll-behavior: smooth;
   }
+  .container {
+    position: relative;
+    
+ 
+  }
   .topnav {
     overflow: hidden;
     background-color: transparent;
@@ -59,7 +64,7 @@ margin: 0px;
       top: 8px;
      
     }
-    .topnav.one{
+    .one{
         background-color: transparent;
     }
  
@@ -104,8 +109,93 @@ color: #E3E7D3;
   .banner{
     width: 100%;
     height: 800px;
-  
-  -webkit-filter: grayscale(100%); 
-  filter: grayscale(100%);
+ opacity: 0.5;
 
+  }
+  .head{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 135px;
+    color: #E3E7D3;
+    position:absolute;
+    top: 39%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  .btn-3 {
+    background: #a442ff;
+  background: #a442ff;
+    width: 250px;
+    height: 58px;
+    line-height: 55px;
+    padding: 0;
+    border: none;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    cursor: pointer;
+    font-family: 'Poppins' , sans-serif;
+    color: white;
+    
+  }
+  .btn-3 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-3:before,
+  .btn-3:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+     background: #a442ff;
+    transition: all 0.3s ease;
+   
+  }
+  .btn-3:before {
+    height: 0%;
+    width: 2px;
+  }
+  .btn-3:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3:hover{
+     background: transparent;
+    box-shadow: none;
+  }
+  .btn-3:hover:before {
+    height: 100%;
+  }
+  .btn-3:hover:after {
+    width: 100%;
+  }
+  .btn-3 span:hover{
+     color:#a442ff;
+  }
+  .btn-3 span:before,
+  .btn-3 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+     background: #a442ff;
+    transition: all 0.3s ease;
+  }
+  .btn-3 span:before {
+    width: 2px;
+    height: 0%;
+  }
+  .btn-3 span:after {
+    width: 0%;
+    height: 2px;
+  }
+  .btn-3 span:hover:before {
+    height: 100%;
+  }
+  .btn-3 span:hover:after {
+    width: 100%;
   }
