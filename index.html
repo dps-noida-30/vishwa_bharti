@@ -3,11 +3,43 @@
 <head>
     <meta charset="UTF-8" />
     <title>Music Fest</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
 </head>
 <body>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("topnav");
     
+        function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+        </script>
+        <section id="home">
+            <img src="banner.jpg" class="banner">
+        <div class="header">
+
+        <div class="inner-header flex">
+
+<div class="topnav" id="myTopnav">
+    
+    <a href="contact.html" class="left one">Tickets</a>
+    <a href="reserve.html" class="left">Artists</a>
+  <a href="menu.html" class="left">Venue</a>
+  <a href="images.html" class="left">About</a>
+  <a href="#" class="left">Home</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</div>
+
+</section>
 </body>
 </html>
