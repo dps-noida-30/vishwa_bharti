@@ -67,6 +67,10 @@ margin: 0px;
     .one{
         background-color: transparent;
     }
+    .head h1{
+      font-size: 55px;
+    }
+   
  
   }
   .left {
@@ -110,17 +114,27 @@ color: #E3E7D3;
     width: 100%;
     height: 800px;
  opacity: 0.5;
+ 
 
+  }
+  #home{
+    height: 60em;
   }
   .head{
     font-family: 'Sedgwick Ave Display', cursive;
-    font-size: 135px;
+    font-size: 125px;
     color: #E3E7D3;
     position:absolute;
     top: 39%;
   left: 50%;
   transform: translate(-50%, -50%);
   }
+  @media screen and (max-width:1000px){
+    .head{
+      font-size: 95px;
+    }
+  }
+
   .btn-3 {
     background: #a442ff;
   background: #a442ff;
@@ -130,7 +144,7 @@ color: #E3E7D3;
     padding: 0;
     border: none;
     position: absolute;
-    top: 80%;
+    top: 87%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 25px;
@@ -198,4 +212,33 @@ color: #E3E7D3;
   }
   .btn-3 span:hover:after {
     width: 100%;
+  }
+  .circle span{
+    background-color: #a442ff;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    padding: 70px;
+    text-align: center;
+  }
+  #abt{
+    height: 50em;
+  }
+  .abt{
+    background-color: #E3E7D3;
+    margin-top: 80px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    color: #202020;
+    border-radius: 20px;
+
+  }
+  .card{
+    padding-left: 120px;
+    padding-right: 120px;
+    
   }
