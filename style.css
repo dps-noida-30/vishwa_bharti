@@ -81,7 +81,7 @@ margin: 0px;
     }
   
   a:hover{
-    color:#a442ff;
+    color:#c6ffc6;
   }
   
   a.left:before {
@@ -104,8 +104,9 @@ margin: 0px;
     align-items: center;
   }
   .one{
-    background-color: #a442ff;
+    background-color: #c6ffc6;
     border-radius: 10px;
+    color: #202020;
   }
   a.one:hover{
 color: #E3E7D3;
@@ -136,8 +137,8 @@ color: #E3E7D3;
   }
 
   .btn-3 {
-    background: #a442ff;
-  background: #a442ff;
+    background: #c6ffc6;
+  background: #c6ffc6;
     width: 250px;
     height: 58px;
     line-height: 55px;
@@ -150,7 +151,7 @@ color: #E3E7D3;
     font-size: 25px;
     cursor: pointer;
     font-family: 'Poppins' , sans-serif;
-    color: white;
+    color: #202020;
     
   }
   .btn-3 span {
@@ -158,6 +159,7 @@ color: #E3E7D3;
     display: block;
     width: 100%;
     height: 100%;
+    color: #202020;
   }
   .btn-3:before,
   .btn-3:after {
@@ -165,30 +167,35 @@ color: #E3E7D3;
     content: "";
     right: 0;
     top: 0;
-     background: #a442ff;
+     background: #c6ffc6;
     transition: all 0.3s ease;
+    color: #202020;
    
   }
   .btn-3:before {
     height: 0%;
     width: 2px;
+    color: #202020;
   }
   .btn-3:after {
     width: 0%;
     height: 2px;
+    color: #202020;
   }
   .btn-3:hover{
      background: transparent;
-    box-shadow: none;
+    box-shadow: none;color: #202020;
   }
   .btn-3:hover:before {
     height: 100%;
+    color: #202020;
   }
   .btn-3:hover:after {
     width: 100%;
+    color: #202020;
   }
   .btn-3 span:hover{
-     color:#a442ff;
+     color:#c6ffc6;
   }
   .btn-3 span:before,
   .btn-3 span:after {
@@ -196,36 +203,34 @@ color: #E3E7D3;
     content: "";
     left: 0;
     bottom: 0;
-     background: #a442ff;
+     background: #c6ffc6;
     transition: all 0.3s ease;
+    color: #202020;
   }
   .btn-3 span:before {
     width: 2px;
     height: 0%;
+    color: #202020;
   }
   .btn-3 span:after {
     width: 0%;
     height: 2px;
+    color: #202020;
   }
   .btn-3 span:hover:before {
     height: 100%;
+    color: #202020;
   }
   .btn-3 span:hover:after {
     width: 100%;
+    color: #202020;
   }
-  .circle span{
-    background-color: #a442ff;
-    border-radius: 50%;
-    width: 16px;
-    height: 16px;
-    padding: 70px;
-    text-align: center;
-  }
+  
   #abt{
     height: 50em;
   }
   .abt{
-    background-color: #E3E7D3;
+    color: #202020;
     margin-top: 80px;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -233,12 +238,31 @@ color: #E3E7D3;
     padding-right: 60px;
     padding-top: 80px;
     padding-bottom: 30px;
-    color: #202020;
+  
     border-radius: 20px;
 
-  }
-  .card{
+   } 
+  .card {
     padding-left: 120px;
     padding-right: 120px;
-    
-  }
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: #E3E7D3;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: #c6ffc6;
+    border-radius: 50%;
+    position: absolute;
+    top: -25px;
+    left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
