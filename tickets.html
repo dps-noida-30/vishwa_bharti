@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Music Fest</title>
+    <link rel="stylesheet" href="tickets.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Sedgwick+Ave+Display&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("topnav");
+    
+        function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+        </script>
+        <section id="home">
+            <div class="container">
+
+        <div class="header">
+
+        <div class="inner-header flex">
+
+<div class="topnav" id="myTopnav">
+    <b>
+    <a href="#" class="left one" style="color: #202020;">Tickets</a>
+    <a href="#" class="left">Artists</a>
+  <a href="#" class="left">Venue</a>
+  <a href="#abt" class="left">About</a>
+  <a href="index.html" class="left">Home</a></b>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</div>
+
+</section>
+<section id="form">
+   <center><h1 style="color: #c6ffc6;font-family: 'poppins', sans-serif;font-size: 50px;">Buy Tickets for the whole group</h1></center>
+    <div class="container">
+      <form id="myForm">
+        <label for="fname">Full Name</label>
+        <input type="text" id="fname" name="Fullname" placeholder="Your name..">
+    
+        <label for="email">Email ID</label>
+        <input type="text" id="email" name="email" placeholder="Your Email ID..">
+    
+        <label for="members">Number of Tickets</label>
+        <input type="number" value="none" placeholder="Number of Tickets.." name="No of Tickets">
+      <br>
+      
+        <input type="submit" value="Submit" class="btn" onclick="alert('Tickets booked successfully')" value="Click Me!">
+      </form>
+    </div>
+    
+</section>
+<footer>
+    <center>
+   <p class="footer"> &copy;Created by Team DPS Noida</p>
+   </center>
+  </footer>
+</body>
+</html>
